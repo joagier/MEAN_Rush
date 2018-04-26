@@ -1,0 +1,19 @@
+extends layout
+
+block content
+  h1= title
+  p Welcome to #{title}
+  p= email
+
+  form(method='POST', action='/login')
+    div.form-group
+      label(for='emailcheck') Email:
+      input#emailcheck.form-control(type='email', placeholder='name@email.com' name='email')
+    div.form-group
+      label(for='pwcheck') Password:
+      input#pwcheck.form-control(type='password' name='password')
+      div.form-group
+        label(for='pwccheck') Password Confirmation:
+        input#pwccheck.form-control(type='password' name='password_confirmation')
+      <br>
+      button.btn.btn-primary(type='submit') Login
