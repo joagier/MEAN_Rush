@@ -1,0 +1,43 @@
+<h1>MicroBloggos feed</h1>
+
+<div >
+  {{message}}
+</div>
+
+
+<div *ngIf="profile;">
+
+  <form #newMessage="ngForm" (ngSubmit) = "onClickNewMessage(newMessage.value)">
+    <div class="form-group">
+      <label for = "content">Add a message : </label><br>
+      <textarea class="form-control" name="content" id="content" maxlength="140" ngModel></textarea>
+    </div>
+    <input type="submit" value="submit" class="btn btn-primary">
+  </form>
+
+  <br>
+
+  <div *ngFor="let allMessage of allMessages;" >
+    <div class="panel panel-primary">
+      <div class="panel-body">{{ allMessage.content }}</div>
+      <div class="panel-heading" >By {{ allMessage.author_name }}
+        <button class="btn btn-info" (click)="toggle(allMessage._id)" >Update</button>
+        <button class="btn btn-warning"  (click)="onClickRemove(allMessage._id)">Delete</button>
+        <div *ngIf="check === allMessage._id">
+          <form #updateMessage="ngForm" (ngSubmit) = "onClickUpdateMessage(updateMessage.value, allMessage._id)">
+            <div class="form-group">
+              <label for = "content">Update message : </label><br>
+              <textarea class="form-control" name="content" id="content" maxlength="140" required ngModel></textarea>
+            </div>
+            <input type="submit" value="submit" class="btn btn-primary">
+          </form>
+        </div>
+      </div>
+
+    </div>
+
+  </div>
+
+
+
+</div>

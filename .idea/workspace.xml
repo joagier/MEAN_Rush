@@ -1,7 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2ed02f61-4f36-4c28-a9c5-66f96f6c2618" name="Default" comment="" />
+    <list default="true" id="2ed02f61-4f36-4c28-a9c5-66f96f6c2618" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MicroBloggos/app_client/MicroBloggos/src/app/app.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/MicroBloggos/app_client/MicroBloggos/src/app/app.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MicroBloggos/app_client/MicroBloggos/src/app/app.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/MicroBloggos/app_client/MicroBloggos/src/app/app.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MicroBloggos/app_client/MicroBloggos/src/app/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/MicroBloggos/app_client/MicroBloggos/src/app/app.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MicroBloggos/app_client/MicroBloggos/src/app/app.routing.ts" beforeDir="false" afterPath="$PROJECT_DIR$/MicroBloggos/app_client/MicroBloggos/src/app/app.routing.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MicroBloggos/app_server/controllers/authentication.js" beforeDir="false" afterPath="$PROJECT_DIR$/MicroBloggos/app_server/controllers/authentication.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MicroBloggos/app_server/controllers/users.js" beforeDir="false" afterPath="$PROJECT_DIR$/MicroBloggos/app_server/controllers/users.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MicroBloggos/app_server/models/db.js" beforeDir="false" afterPath="$PROJECT_DIR$/MicroBloggos/app_server/models/db.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MicroBloggos/app_server/models/users.js" beforeDir="false" afterPath="$PROJECT_DIR$/MicroBloggos/app_server/models/users.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MicroBloggos/app_server/routes/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/MicroBloggos/app_server/routes/index.js" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -13,15 +24,81 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="app.routing.ts" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/MicroBloggos/app_client/MicroBloggos/src/app/app.routing.ts">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/MicroBloggos/app_server/routes/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="5" column="2" lean-forward="true" selection-start-line="5" selection-start-column="2" selection-end-line="5" selection-end-column="2" />
+            <state relative-caret-position="462">
+              <caret line="30" column="44" lean-forward="true" selection-start-line="30" selection-start-column="44" selection-end-line="30" selection-end-column="44" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="home.component.ts" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/MicroBloggos/app_client/MicroBloggos/src/app/home/home.component.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="324">
+              <caret line="104" column="43" selection-start-line="104" selection-start-column="43" selection-end-line="104" selection-end-column="43" />
               <folding>
-                <element signature="e#0#47#0" expanded="true" />
+                <element signature="e#0#50#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="profile.component.ts" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/MicroBloggos/app_client/MicroBloggos/src/app/profile/profile.component.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="828">
+              <caret line="46" column="4" lean-forward="true" selection-start-line="46" selection-start-column="4" selection-end-line="46" selection-end-column="4" />
+              <folding>
+                <element signature="e#0#50#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="home.component.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/MicroBloggos/app_client/MicroBloggos/src/app/home/home.component.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="367">
+              <caret line="32" column="17" lean-forward="true" selection-start-line="32" selection-start-column="17" selection-end-line="32" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="messages.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/MicroBloggos/app_server/controllers/messages.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="228">
+              <caret line="41" column="18" lean-forward="true" selection-start-line="41" selection-start-column="18" selection-end-line="41" selection-end-column="18" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="db.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/MicroBloggos/app_server/models/db.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="462">
+              <caret line="88" column="1" lean-forward="true" selection-start-line="88" selection-start-column="1" selection-end-line="88" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="messages.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/MicroBloggos/app_server/models/messages.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="252">
+              <caret line="14" column="1" lean-forward="true" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="members.component.ts" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/MicroBloggos/app_client/MicroBloggos/src/app/members/members.component.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="342">
+              <caret line="21" column="29" selection-start-line="21" selection-start-column="29" selection-end-line="21" selection-end-column="29" />
             </state>
           </provider>
         </entry>
@@ -35,6 +112,13 @@
       </list>
     </option>
   </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>console</find>
+      <find>result</find>
+      <find>name</find>
+    </findStrings>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -42,13 +126,28 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/MicroBloggos/app.js" />
-        <option value="$PROJECT_DIR$/MicroBloggos/app_server/routes/index.js" />
-        <option value="$PROJECT_DIR$/MicroBloggos/app_server/controllers/users.js" />
-        <option value="$PROJECT_DIR$/MicroBloggos/app_server/models/db.js" />
         <option value="$PROJECT_DIR$/MicroBloggos/app_server/views/index.pug" />
+        <option value="$PROJECT_DIR$/MicroBloggos/app_client/MicroBloggos/src/app/register/register.component.ts" />
         <option value="$PROJECT_DIR$/MicroBloggos/app_server/models/users.js" />
+        <option value="$PROJECT_DIR$/MicroBloggos/app_client/MicroBloggos/src/app/register/register.component.html" />
         <option value="$PROJECT_DIR$/MicroBloggos/app_server/controllers/authentication.js" />
+        <option value="$PROJECT_DIR$/MicroBloggos/app_client/MicroBloggos/src/app/login/login.component.html" />
+        <option value="$PROJECT_DIR$/MicroBloggos/app_client/MicroBloggos/src/app/login/login.component.ts" />
+        <option value="$PROJECT_DIR$/MicroBloggos/app_client/MicroBloggos/src/app/app.component.ts" />
+        <option value="$PROJECT_DIR$/MicroBloggos/app_client/MicroBloggos/src/app/profile/profile.component.html" />
+        <option value="$PROJECT_DIR$/MicroBloggos/app_client/MicroBloggos/src/app/profile/profile.component.ts" />
         <option value="$PROJECT_DIR$/MicroBloggos/app_client/MicroBloggos/src/app/app.routing.ts" />
+        <option value="$PROJECT_DIR$/MicroBloggos/app_client/MicroBloggos/src/app/app.module.ts" />
+        <option value="$PROJECT_DIR$/MicroBloggos/app_client/MicroBloggos/src/app/members/members.component.html" />
+        <option value="$PROJECT_DIR$/MicroBloggos/app_server/controllers/users.js" />
+        <option value="$PROJECT_DIR$/MicroBloggos/app_client/MicroBloggos/src/app/members/members.component.ts" />
+        <option value="$PROJECT_DIR$/MicroBloggos/app_server/models/messages.js" />
+        <option value="$PROJECT_DIR$/MicroBloggos/app_client/MicroBloggos/src/app/app.component.html" />
+        <option value="$PROJECT_DIR$/MicroBloggos/app_client/MicroBloggos/src/app/home/home.component.ts" />
+        <option value="$PROJECT_DIR$/MicroBloggos/app_server/routes/index.js" />
+        <option value="$PROJECT_DIR$/MicroBloggos/app_server/controllers/messages.js" />
+        <option value="$PROJECT_DIR$/MicroBloggos/app_server/models/db.js" />
+        <option value="$PROJECT_DIR$/MicroBloggos/app_client/MicroBloggos/src/app/home/home.component.html" />
       </list>
     </option>
   </component>
@@ -65,139 +164,13 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths>
       <path value="$PROJECT_DIR$/MicroBloggos/app_client/MicroBloggos/package.json" />
-      <path value="$PROJECT_DIR$/MicroBloggos/node_modules/@types/babel-types/package.json" />
-      <path value="$PROJECT_DIR$/MicroBloggos/node_modules/@types/babylon/package.json" />
-      <path value="$PROJECT_DIR$/MicroBloggos/node_modules/accepts/package.json" />
-      <path value="$PROJECT_DIR$/MicroBloggos/node_modules/acorn-globals/node_modules/acorn/package.json" />
-      <path value="$PROJECT_DIR$/MicroBloggos/node_modules/acorn-globals/package.json" />
-      <path value="$PROJECT_DIR$/MicroBloggos/node_modules/acorn/package.json" />
-      <path value="$PROJECT_DIR$/MicroBloggos/node_modules/align-text/package.json" />
-      <path value="$PROJECT_DIR$/MicroBloggos/node_modules/amdefine/package.json" />
-      <path value="$PROJECT_DIR$/MicroBloggos/node_modules/array-flatten/package.json" />
-      <path value="$PROJECT_DIR$/MicroBloggos/node_modules/asap/package.json" />
-      <path value="$PROJECT_DIR$/MicroBloggos/node_modules/babel-runtime/package.json" />
-      <path value="$PROJECT_DIR$/MicroBloggos/node_modules/babel-types/package.json" />
-      <path value="$PROJECT_DIR$/MicroBloggos/node_modules/babylon/package.json" />
-      <path value="$PROJECT_DIR$/MicroBloggos/node_modules/basic-auth/package.json" />
-      <path value="$PROJECT_DIR$/MicroBloggos/node_modules/body-parser/package.json" />
-      <path value="$PROJECT_DIR$/MicroBloggos/node_modules/bytes/package.json" />
-      <path value="$PROJECT_DIR$/MicroBloggos/node_modules/camelcase/package.json" />
-      <path value="$PROJECT_DIR$/MicroBloggos/node_modules/center-align/package.json" />
-      <path value="$PROJECT_DIR$/MicroBloggos/node_modules/character-parser/package.json" />
-      <path value="$PROJECT_DIR$/MicroBloggos/node_modules/clean-css/package.json" />
-      <path value="$PROJECT_DIR$/MicroBloggos/node_modules/cliui/package.json" />
-      <path value="$PROJECT_DIR$/MicroBloggos/node_modules/commander/package.json" />
-      <path value="$PROJECT_DIR$/MicroBloggos/node_modules/constantinople/package.json" />
-      <path value="$PROJECT_DIR$/MicroBloggos/node_modules/content-disposition/package.json" />
-      <path value="$PROJECT_DIR$/MicroBloggos/node_modules/content-type/package.json" />
-      <path value="$PROJECT_DIR$/MicroBloggos/node_modules/cookie-parser/package.json" />
-      <path value="$PROJECT_DIR$/MicroBloggos/node_modules/cookie-signature/package.json" />
-      <path value="$PROJECT_DIR$/MicroBloggos/node_modules/cookie/package.json" />
-      <path value="$PROJECT_DIR$/MicroBloggos/node_modules/core-js/package.json" />
-      <path value="$PROJECT_DIR$/MicroBloggos/node_modules/debug/package.json" />
-      <path value="$PROJECT_DIR$/MicroBloggos/node_modules/decamelize/package.json" />
-      <path value="$PROJECT_DIR$/MicroBloggos/node_modules/depd/package.json" />
-      <path value="$PROJECT_DIR$/MicroBloggos/node_modules/destroy/package.json" />
-      <path value="$PROJECT_DIR$/MicroBloggos/node_modules/doctypes/package.json" />
-      <path value="$PROJECT_DIR$/MicroBloggos/node_modules/ee-first/package.json" />
-      <path value="$PROJECT_DIR$/MicroBloggos/node_modules/encodeurl/package.json" />
-      <path value="$PROJECT_DIR$/MicroBloggos/node_modules/escape-html/package.json" />
-      <path value="$PROJECT_DIR$/MicroBloggos/node_modules/esutils/package.json" />
-      <path value="$PROJECT_DIR$/MicroBloggos/node_modules/etag/package.json" />
-      <path value="$PROJECT_DIR$/MicroBloggos/node_modules/express/package.json" />
-      <path value="$PROJECT_DIR$/MicroBloggos/node_modules/finalhandler/package.json" />
-      <path value="$PROJECT_DIR$/MicroBloggos/node_modules/forwarded/package.json" />
-      <path value="$PROJECT_DIR$/MicroBloggos/node_modules/fresh/package.json" />
-      <path value="$PROJECT_DIR$/MicroBloggos/node_modules/function-bind/package.json" />
-      <path value="$PROJECT_DIR$/MicroBloggos/node_modules/graceful-readlink/package.json" />
-      <path value="$PROJECT_DIR$/MicroBloggos/node_modules/has/package.json" />
-      <path value="$PROJECT_DIR$/MicroBloggos/node_modules/http-errors/package.json" />
-      <path value="$PROJECT_DIR$/MicroBloggos/node_modules/iconv-lite/package.json" />
-      <path value="$PROJECT_DIR$/MicroBloggos/node_modules/inherits/package.json" />
-      <path value="$PROJECT_DIR$/MicroBloggos/node_modules/ipaddr.js/package.json" />
-      <path value="$PROJECT_DIR$/MicroBloggos/node_modules/is-buffer/package.json" />
-      <path value="$PROJECT_DIR$/MicroBloggos/node_modules/is-expression/node_modules/acorn/package.json" />
-      <path value="$PROJECT_DIR$/MicroBloggos/node_modules/is-expression/package.json" />
-      <path value="$PROJECT_DIR$/MicroBloggos/node_modules/is-promise/package.json" />
-      <path value="$PROJECT_DIR$/MicroBloggos/node_modules/is-regex/package.json" />
-      <path value="$PROJECT_DIR$/MicroBloggos/node_modules/js-stringify/package.json" />
-      <path value="$PROJECT_DIR$/MicroBloggos/node_modules/jstransformer/package.json" />
-      <path value="$PROJECT_DIR$/MicroBloggos/node_modules/kind-of/package.json" />
-      <path value="$PROJECT_DIR$/MicroBloggos/node_modules/lazy-cache/package.json" />
-      <path value="$PROJECT_DIR$/MicroBloggos/node_modules/lodash/package.json" />
-      <path value="$PROJECT_DIR$/MicroBloggos/node_modules/longest/package.json" />
-      <path value="$PROJECT_DIR$/MicroBloggos/node_modules/media-typer/package.json" />
-      <path value="$PROJECT_DIR$/MicroBloggos/node_modules/merge-descriptors/package.json" />
-      <path value="$PROJECT_DIR$/MicroBloggos/node_modules/methods/package.json" />
-      <path value="$PROJECT_DIR$/MicroBloggos/node_modules/mime-db/package.json" />
-      <path value="$PROJECT_DIR$/MicroBloggos/node_modules/mime-types/package.json" />
-      <path value="$PROJECT_DIR$/MicroBloggos/node_modules/mime/package.json" />
-      <path value="$PROJECT_DIR$/MicroBloggos/node_modules/morgan/package.json" />
-      <path value="$PROJECT_DIR$/MicroBloggos/node_modules/ms/package.json" />
-      <path value="$PROJECT_DIR$/MicroBloggos/node_modules/negotiator/package.json" />
-      <path value="$PROJECT_DIR$/MicroBloggos/node_modules/object-assign/package.json" />
-      <path value="$PROJECT_DIR$/MicroBloggos/node_modules/on-finished/package.json" />
-      <path value="$PROJECT_DIR$/MicroBloggos/node_modules/on-headers/package.json" />
-      <path value="$PROJECT_DIR$/MicroBloggos/node_modules/parseurl/package.json" />
-      <path value="$PROJECT_DIR$/MicroBloggos/node_modules/path-parse/package.json" />
-      <path value="$PROJECT_DIR$/MicroBloggos/node_modules/path-to-regexp/package.json" />
-      <path value="$PROJECT_DIR$/MicroBloggos/node_modules/promise/package.json" />
-      <path value="$PROJECT_DIR$/MicroBloggos/node_modules/proxy-addr/package.json" />
-      <path value="$PROJECT_DIR$/MicroBloggos/node_modules/pug-attrs/package.json" />
-      <path value="$PROJECT_DIR$/MicroBloggos/node_modules/pug-code-gen/package.json" />
-      <path value="$PROJECT_DIR$/MicroBloggos/node_modules/pug-error/package.json" />
-      <path value="$PROJECT_DIR$/MicroBloggos/node_modules/pug-filters/package.json" />
-      <path value="$PROJECT_DIR$/MicroBloggos/node_modules/pug-lexer/package.json" />
-      <path value="$PROJECT_DIR$/MicroBloggos/node_modules/pug-linker/package.json" />
-      <path value="$PROJECT_DIR$/MicroBloggos/node_modules/pug-load/package.json" />
-      <path value="$PROJECT_DIR$/MicroBloggos/node_modules/pug-parser/package.json" />
-      <path value="$PROJECT_DIR$/MicroBloggos/node_modules/pug-runtime/package.json" />
-      <path value="$PROJECT_DIR$/MicroBloggos/node_modules/pug-strip-comments/package.json" />
-      <path value="$PROJECT_DIR$/MicroBloggos/node_modules/pug-walk/package.json" />
-      <path value="$PROJECT_DIR$/MicroBloggos/node_modules/pug/package.json" />
-      <path value="$PROJECT_DIR$/MicroBloggos/node_modules/qs/package.json" />
-      <path value="$PROJECT_DIR$/MicroBloggos/node_modules/range-parser/package.json" />
-      <path value="$PROJECT_DIR$/MicroBloggos/node_modules/raw-body/node_modules/depd/package.json" />
-      <path value="$PROJECT_DIR$/MicroBloggos/node_modules/raw-body/node_modules/http-errors/package.json" />
-      <path value="$PROJECT_DIR$/MicroBloggos/node_modules/raw-body/node_modules/setprototypeof/package.json" />
-      <path value="$PROJECT_DIR$/MicroBloggos/node_modules/raw-body/package.json" />
-      <path value="$PROJECT_DIR$/MicroBloggos/node_modules/regenerator-runtime/package.json" />
-      <path value="$PROJECT_DIR$/MicroBloggos/node_modules/repeat-string/package.json" />
-      <path value="$PROJECT_DIR$/MicroBloggos/node_modules/resolve/package.json" />
-      <path value="$PROJECT_DIR$/MicroBloggos/node_modules/resolve/test/module_dir/zmodules/bbb/package.json" />
-      <path value="$PROJECT_DIR$/MicroBloggos/node_modules/resolve/test/resolver/baz/package.json" />
-      <path value="$PROJECT_DIR$/MicroBloggos/node_modules/resolve/test/resolver/browser_field/package.json" />
-      <path value="$PROJECT_DIR$/MicroBloggos/node_modules/resolve/test/resolver/dot_main/package.json" />
-      <path value="$PROJECT_DIR$/MicroBloggos/node_modules/resolve/test/resolver/dot_slash_main/package.json" />
-      <path value="$PROJECT_DIR$/MicroBloggos/node_modules/resolve/test/resolver/incorrect_main/package.json" />
-      <path value="$PROJECT_DIR$/MicroBloggos/node_modules/right-align/package.json" />
-      <path value="$PROJECT_DIR$/MicroBloggos/node_modules/safe-buffer/package.json" />
-      <path value="$PROJECT_DIR$/MicroBloggos/node_modules/send/package.json" />
-      <path value="$PROJECT_DIR$/MicroBloggos/node_modules/serve-static/package.json" />
-      <path value="$PROJECT_DIR$/MicroBloggos/node_modules/setprototypeof/package.json" />
-      <path value="$PROJECT_DIR$/MicroBloggos/node_modules/source-map/package.json" />
-      <path value="$PROJECT_DIR$/MicroBloggos/node_modules/statuses/package.json" />
-      <path value="$PROJECT_DIR$/MicroBloggos/node_modules/to-fast-properties/package.json" />
-      <path value="$PROJECT_DIR$/MicroBloggos/node_modules/token-stream/package.json" />
-      <path value="$PROJECT_DIR$/MicroBloggos/node_modules/type-is/package.json" />
-      <path value="$PROJECT_DIR$/MicroBloggos/node_modules/uglify-js/node_modules/source-map/package.json" />
-      <path value="$PROJECT_DIR$/MicroBloggos/node_modules/uglify-js/package.json" />
-      <path value="$PROJECT_DIR$/MicroBloggos/node_modules/uglify-to-browserify/package.json" />
-      <path value="$PROJECT_DIR$/MicroBloggos/node_modules/unpipe/package.json" />
-      <path value="$PROJECT_DIR$/MicroBloggos/node_modules/utils-merge/package.json" />
-      <path value="$PROJECT_DIR$/MicroBloggos/node_modules/vary/package.json" />
-      <path value="$PROJECT_DIR$/MicroBloggos/node_modules/void-elements/package.json" />
-      <path value="$PROJECT_DIR$/MicroBloggos/node_modules/window-size/package.json" />
-      <path value="$PROJECT_DIR$/MicroBloggos/node_modules/with/package.json" />
-      <path value="$PROJECT_DIR$/MicroBloggos/node_modules/wordwrap/package.json" />
-      <path value="$PROJECT_DIR$/MicroBloggos/node_modules/yargs/package.json" />
       <path value="$PROJECT_DIR$/MicroBloggos/package.json" />
     </packageJsonPaths>
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
-    <option name="x" value="768" />
-    <option name="y" value="176" />
-    <option name="width" value="1403" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="168" />
+    <option name="y" value="243" />
+    <option name="width" value="1625" />
     <option name="height" value="779" />
   </component>
   <component name="ProjectLevelVcsManager">
@@ -255,6 +228,26 @@
               <item name="MEAN_Rush" type="b2602c69:ProjectViewProjectNode" />
               <item name="MEAN_Rush" type="462c0819:PsiDirectoryNode" />
               <item name="MicroBloggos" type="462c0819:PsiDirectoryNode" />
+              <item name="app_client" type="462c0819:PsiDirectoryNode" />
+              <item name="MicroBloggos" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="home" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MEAN_Rush" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MEAN_Rush" type="462c0819:PsiDirectoryNode" />
+              <item name="MicroBloggos" type="462c0819:PsiDirectoryNode" />
+              <item name="app_client" type="462c0819:PsiDirectoryNode" />
+              <item name="MicroBloggos" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="profile" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MEAN_Rush" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MEAN_Rush" type="462c0819:PsiDirectoryNode" />
+              <item name="MicroBloggos" type="462c0819:PsiDirectoryNode" />
               <item name="app_server" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -292,7 +285,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../MEAN_Pool_Day_04/my-app/src/app/todos/todos.component.ts" />
     <property name="node.js.detected.package.prettier" value="true" />
     <property name="node.js.path.for.package.prettier" value="project" />
     <property name="node.js.selected.package.prettier" value="" />
@@ -327,35 +320,36 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1524729979294</updated>
-      <workItem from="1524729980599" duration="4462000" />
+      <workItem from="1524729980599" duration="27181000" />
+      <workItem from="1524821518786" duration="26812000" />
+      <workItem from="1525000121837" duration="19715000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4462000" />
+    <option name="totallyTimeSpent" value="73708000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="768" y="176" width="1403" height="779" extended-state="0" />
-    <editor active="true" />
+    <frame x="168" y="243" width="1625" height="779" extended-state="0" />
     <layout>
-      <window_info anchor="bottom" id="TypeScript" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24946544" />
+      <window_info anchor="bottom" id="TypeScript" order="11" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21538462" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="10" />
       <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Version Control" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.3292683" />
+      <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info id="Favorites" side_tool="true" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -365,17 +359,118 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/MicroBloggos/app.js">
+    <entry file="file://$PROJECT_DIR$/MicroBloggos/app_server/routes/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="20" column="26" selection-start-line="20" selection-start-column="26" selection-end-line="20" selection-end-column="26" />
+        <state relative-caret-position="378">
+          <caret line="21" column="44" selection-start-line="21" selection-start-column="44" selection-end-line="21" selection-end-column="44" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/MicroBloggos/app_server/controllers/users.js">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1350">
+          <caret line="75" column="25" lean-forward="true" selection-start-line="75" selection-start-column="25" selection-end-line="75" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MicroBloggos/app_server/models/db.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1080">
+          <caret line="60" column="38" selection-start-line="60" selection-start-column="38" selection-end-line="60" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MicroBloggos/app_server/models/users.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="15" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MicroBloggos/app_server/models/messages.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="12" column="1" lean-forward="true" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MicroBloggos/app_server/routes/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="18" column="31" selection-start-line="18" selection-start-column="31" selection-end-line="18" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MicroBloggos/app_server/controllers/users.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="21" column="34" lean-forward="true" selection-start-line="21" selection-start-column="34" selection-end-line="21" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MicroBloggos/app_server/controllers/authentication.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="36">
+          <caret line="2" column="20" lean-forward="true" selection-start-line="2" selection-start-column="20" selection-end-line="2" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MicroBloggos/app_server/models/db.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="18" selection-start-line="18" selection-end-line="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MicroBloggos/app_client/MicroBloggos/src/app/profile/profile.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="504">
+          <caret line="28" column="33" selection-start-line="28" selection-start-column="33" selection-end-line="28" selection-end-column="33" />
+          <folding>
+            <element signature="e#0#50#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MicroBloggos/app_client/MicroBloggos/src/app/app.routing.ts">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
-          <caret line="10" column="1" lean-forward="true" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
+          <caret line="10" column="45" selection-start-line="10" selection-start-column="45" selection-end-line="10" selection-end-column="45" />
+          <folding>
+            <element signature="e#0#55#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MicroBloggos/app_client/MicroBloggos/src/app/profile/profile.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MicroBloggos/app_client/MicroBloggos/src/app/login/login.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="18" selection-start-line="18" selection-end-line="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MicroBloggos/app_client/MicroBloggos/src/app/app.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="25" column="11" lean-forward="true" selection-start-line="25" selection-start-column="11" selection-end-line="25" selection-end-column="11" />
+          <folding>
+            <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MicroBloggos/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="20" column="26" selection-start-line="20" selection-start-column="26" selection-end-line="20" selection-end-column="26" />
         </state>
       </provider>
     </entry>
@@ -386,50 +481,217 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/MicroBloggos/app_server/routes/index.js">
+    <entry file="file://$PROJECT_DIR$/../MEAN_Pool_Day_04/my-app/src/app/app.routing.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="21" column="24" lean-forward="true" selection-start-line="21" selection-start-column="24" selection-end-line="21" selection-end-column="24" />
+        <state relative-caret-position="198">
+          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/MicroBloggos/app_server/controllers/authentication.js">
+    <entry file="file://$PROJECT_DIR$/../Laravel_Project/Laravel_Paintball/resources/views/default.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="504">
-          <caret line="28" column="68" lean-forward="true" selection-start-line="28" selection-start-column="68" selection-end-line="28" selection-end-column="68" />
+        <state relative-caret-position="-810">
+          <caret line="18" column="46" selection-start-line="18" selection-start-column="46" selection-end-line="18" selection-end-column="46" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/MicroBloggos/app_server/models/users.js">
+    <entry file="file://$PROJECT_DIR$/../Laravel_Project/Laravel_Paintball/resources/views/manageUser.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-216" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MicroBloggos/app_client/MicroBloggos/src/app/logout/logout.component.ts" />
+    <entry file="file://$PROJECT_DIR$/MicroBloggos/app_client/MicroBloggos/src/app/app.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="22" column="27" lean-forward="true" selection-start-line="22" selection-start-column="27" selection-end-line="22" selection-end-column="27" />
+          <folding>
+            <element signature="e#0#42#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MicroBloggos/app_client/MicroBloggos/src/app/login/login.component.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
-          <caret line="15" column="1" lean-forward="true" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
+          <caret line="15" column="7" lean-forward="true" selection-start-line="5" selection-end-line="15" selection-end-column="7" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/MicroBloggos/app_server/models/db.js">
+    <entry file="file://$PROJECT_DIR$/MicroBloggos/app_client/MicroBloggos/src/app/login/login.component.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="288">
-          <caret line="16" column="19" lean-forward="true" selection-start-line="16" selection-start-column="19" selection-end-line="16" selection-end-column="19" />
+          <caret line="34" column="16" lean-forward="true" selection-start-line="34" selection-start-column="16" selection-end-line="34" selection-end-column="16" />
+          <folding>
+            <element signature="e#0#50#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/MicroBloggos/app_client/MicroBloggos/src/app/app.module.ts">
+    <entry file="file://$PROJECT_DIR$/MicroBloggos/app_client/MicroBloggos/src/app/members/members.component.spec.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <folding>
-            <element signature="e#0#58#0" expanded="true" />
+            <element signature="e#0#73#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/MicroBloggos/app_client/MicroBloggos/src/app/app.routing.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="5" column="2" lean-forward="true" selection-start-line="5" selection-start-column="2" selection-end-line="5" selection-end-column="2" />
+        <state relative-caret-position="324">
+          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
           <folding>
-            <element signature="e#0#47#0" expanded="true" />
+            <element signature="e#0#55#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MicroBloggos/app_client/MicroBloggos/src/app/app.module.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="22" column="21" selection-start-line="22" selection-start-column="21" selection-end-line="22" selection-end-column="21" />
+          <folding>
+            <element signature="e#0#58#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MicroBloggos/app_server/models/users.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="7" column="49" selection-start-line="7" selection-start-column="49" selection-end-line="7" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MicroBloggos/app_client/MicroBloggos/src/app/register/register.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="16" column="3" lean-forward="true" selection-start-line="16" selection-start-column="3" selection-end-line="16" selection-end-column="3" />
+          <folding>
+            <element signature="e#0#50#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MicroBloggos/app_client/MicroBloggos/src/app/register/register.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="9" column="74" lean-forward="true" selection-start-line="9" selection-start-column="74" selection-end-line="9" selection-end-column="74" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MicroBloggos/app_server/controllers/authentication.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66">
+          <caret line="45" column="9" selection-start-line="45" selection-start-column="9" selection-end-line="45" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MicroBloggos/app_server/controllers/users.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="426">
+          <caret line="73" column="38" selection-start-line="73" selection-start-column="38" selection-end-line="73" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MicroBloggos/app_client/MicroBloggos/src/app/profile/profile.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="77" selection-start-line="18" selection-start-column="70" selection-end-line="18" selection-end-column="77" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MicroBloggos/app_client/MicroBloggos/src/app/members/members.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="5" column="18" lean-forward="true" selection-start-line="5" selection-start-column="18" selection-end-line="5" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MicroBloggos/app_client/MicroBloggos/src/app/app.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="376">
+          <caret line="34" column="47" selection-start-line="34" selection-start-column="47" selection-end-line="34" selection-end-column="47" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MicroBloggos/app_client/MicroBloggos/src/app/members/members.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="21" column="29" selection-start-line="21" selection-start-column="29" selection-end-line="21" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../MEAN_Pool_Day_04/my-app/src/app/todos/todos.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="685">
+          <caret line="69" column="48" lean-forward="true" selection-start-line="69" selection-start-column="34" selection-end-line="69" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../MEAN_Pool_Day_04/my-app/src/app/todos/todos.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="16" column="29" lean-forward="true" selection-start-line="16" selection-start-column="29" selection-end-line="16" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MicroBloggos/app_server/models/db.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="462">
+          <caret line="88" column="1" lean-forward="true" selection-start-line="88" selection-start-column="1" selection-end-line="88" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MicroBloggos/app_server/controllers/messages.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="41" column="18" lean-forward="true" selection-start-line="41" selection-start-column="18" selection-end-line="41" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MicroBloggos/app_server/routes/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="462">
+          <caret line="30" column="44" lean-forward="true" selection-start-line="30" selection-start-column="44" selection-end-line="30" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MicroBloggos/app_server/models/messages.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="14" column="1" lean-forward="true" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MicroBloggos/app_client/MicroBloggos/src/app/profile/profile.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="828">
+          <caret line="46" column="4" lean-forward="true" selection-start-line="46" selection-start-column="4" selection-end-line="46" selection-end-column="4" />
+          <folding>
+            <element signature="e#0#50#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MicroBloggos/app_client/MicroBloggos/src/app/home/home.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="104" column="43" selection-start-line="104" selection-start-column="43" selection-end-line="104" selection-end-column="43" />
+          <folding>
+            <element signature="e#0#50#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MicroBloggos/app_client/MicroBloggos/src/app/home/home.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="367">
+          <caret line="32" column="17" lean-forward="true" selection-start-line="32" selection-start-column="17" selection-end-line="32" selection-end-column="17" />
         </state>
       </provider>
     </entry>
