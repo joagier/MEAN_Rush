@@ -14,18 +14,11 @@ var ct = require('../models/db')
 
 app.use(cors());
 
-/*app.use(function(req, res, next) {
-    res.header("Access-Control-Allow-Origin", "http://localhost:4200");
-    res.header("Access-Control-Allow-Headers", "Origin, X-Requested-With, Content-Type, Accept");
-    res.header("Access-Control-Allow-Methods", "GET, POST, PUT, DELETE, OPTIONS");
-    next();
-});*/
-
 exports.register = function (req, res) {
     if (req.body.name && req.body.email && req.body.password && req.body.password_confirmation) {
         if (req.body.password === req.body.password_confirmation) {
             ct.userCheck(req.body.email, function(result) {
-                if (result > 0) {
+                if (result === 0) {
                     bcrypt.genSalt(saltRounds, function(err, salt) {
                         if (err) {
                             res.json(404);
@@ -44,26 +37,27 @@ exports.register = function (req, res) {
                         });
                     });
                 } else {
-                    res.json(404);
+                    res.json("Email already exists")
                 }
-        });
-    } else {
+            });
+
+        }else {
             res.status(400).send("Passwords don't match");
         }
-}else {
+
+    } else {
         res.status(400).send("All fields are required");
     }
 }
 
 exports.login = function (req, res) {
-    if (req.body.email && req.body.password && req.body.password_confirmation) {
-        if (req.body.password === req.body.password_confirmation) {
-            ct.userCheck(req.body.email, function(result) {
-                if (result > 0) {
+    if (req.body.email && req.body.password) {
+            ct.userCheck(req.body.email, function(resultCheck) {
+                if (resultCheck > 0) {
                     ct.userInfo(req.body.email, function (result) {
-                        bcrypt.compare(req.body.password, result.password, function (err, result) {
-                            if (result === true) {
-                                res.sendStatus(200);
+                        bcrypt.compare(req.body.password, result.password, function (err, resultBcrypt) {
+                            if (resultBcrypt === true) {
+                                res.status(200).json({result});
                             } else {
                                 res.json(404);
                             }
@@ -73,9 +67,6 @@ exports.login = function (req, res) {
                     res.json(404);
                 }
             });
-        } else {
-            res.json(404);
-        }
     } else {
         res.status(400).send("All fields are required");
     }

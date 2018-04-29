@@ -1,0 +1,15 @@
+<h1>Members of MicroBloggos</h1>
+
+<table class="table-bordered">
+  <tr>
+    <th>Name</th>
+    <th>Email</th>
+  </tr>
+
+  <tr *ngFor="let member of members">
+    <td>{{ member.name }}</td>
+    <td>{{ member.email }}</td>
+  </tr>
+
+
+</table>

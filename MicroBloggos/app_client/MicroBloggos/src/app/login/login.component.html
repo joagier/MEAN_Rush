@@ -1,0 +1,18 @@
+<h3>Please register to login</h3>
+
+
+<div>{{message}}</div>
+
+<form #userLogin="ngForm" (ngSubmit) = "onClickLogin(userLogin.value)">
+  <div class="form-group">
+    <label for = "email">Email : </label><br>
+    <input type="text" name ="email" id ="email" placeholder="email" ngModel>
+  </div>
+  <div class="form-group">
+    <label for = "password">Password : </label><br>
+    <input type="password" name ="password" id ="password" placeholder="password" ngModel>
+  </div>
+  <input type="submit" value="submit" class="btn btn-primary">
+</form>
+
+
