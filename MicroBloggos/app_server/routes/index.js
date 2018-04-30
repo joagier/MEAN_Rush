@@ -27,6 +27,9 @@ router.get('/userMessages/:author_id', ctrlMess.getUserMessages);
 router.post('/deleteMessage', ctrlMess.deleteSingleMessage);
 router.post('/updateMessage', ctrlMess.updateSingleMessage);
 
+router.post('/addFriend', ctrlUsers.addFriend);
+router.post('/deleteFriend', ctrlUsers.deleteFriend);
+router.post('/friendsMessages', ctrlMess.getFriendsMessages);
 
 router.post('/register', ctrlAuth.register);
 router.post('/login', ctrlAuth.login);

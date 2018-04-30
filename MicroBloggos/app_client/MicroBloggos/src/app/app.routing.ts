@@ -5,13 +5,15 @@ import {LoginComponent} from "./login/login.component";
 import {HomeComponent} from "./home/home.component";
 import { ProfileComponent } from "./profile/profile.component";
 import {MembersComponent} from "./members/members.component";
+import {FriendsComponent} from "./friends/friends.component";
 
 export const AppRoutes: Routes = [
   { path: '', component: RegisterComponent },
   { path: 'login', component: LoginComponent },
   { path: 'home', component: HomeComponent },
   { path: 'profile', component: ProfileComponent },
-  { path: 'members', component: MembersComponent }
+  { path: 'members', component: MembersComponent },
+  { path: 'friends', component: FriendsComponent }
 
 ];
 

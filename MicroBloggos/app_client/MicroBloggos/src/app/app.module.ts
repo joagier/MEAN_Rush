@@ -11,6 +11,7 @@ import { LoginComponent } from './login/login.component';
 import { HomeComponent } from './home/home.component';
 import { ProfileComponent } from './profile/profile.component';
 import { MembersComponent } from './members/members.component';
+import { FriendsComponent } from './friends/friends.component';
 
 
 @NgModule({
@@ -21,6 +22,7 @@ import { MembersComponent } from './members/members.component';
     HomeComponent,
     ProfileComponent,
     MembersComponent,
+    FriendsComponent,
   ],
   imports: [
     BrowserModule,

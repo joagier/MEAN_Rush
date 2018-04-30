@@ -54,3 +54,9 @@ exports.updateSingleMessage = function (req, res) {
         res.json("Message updated");
     })
 }
+
+exports.getFriendsMessages = function (req, res) {
+    ct.messageFriends(req.body.friends, function (result) {
+        res.send(result);
+    })
+}

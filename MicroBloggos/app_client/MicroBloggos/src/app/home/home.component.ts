@@ -31,8 +31,9 @@ export class HomeComponent implements OnInit {
           res => {
             this.allMessages = res;
           }
-        )
+        );
     }
+
   }
 
   onClickNewMessage(data) {

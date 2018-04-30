@@ -73,6 +73,13 @@ exports.messageInfo = function (author_id, callback) {
     })
 }
 
+exports.messageFriends = function (friends, callback) {
+    console.log(friends);
+    messageModel.find({author_id: {$in: friends}}, null, {sort: {'date': -1}}, function (err, result) {
+        callback(result);
+    })
+}
+
 exports.deleteMessage = function (_id, callback) {
     messageModel.remove({_id: _id}, function (result) {
         callback(result);
@@ -86,4 +93,22 @@ exports.updateMessage = function (_id, content, callback) {
             }
             callback(result);
         })
+}
+
+exports.addFriend = function (friends, _id,  callback) {
+    userModel.update ({_id: _id}, {$push: {friends: friends}}, function (err, result) {
+        if (err) {
+            console.log("Cannot add friend")
+        }
+        callback(result);
+    });
+}
+
+exports.deleteFriend = function (friends, _id,  callback) {
+    userModel.update ({_id: _id}, {$pull: {friends: friends}}, function (err, result) {
+        if (err) {
+            console.log("Cannot remove friend")
+        }
+        callback(result);
+    });
 }
