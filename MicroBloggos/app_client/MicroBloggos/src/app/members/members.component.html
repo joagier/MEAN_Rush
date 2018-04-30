@@ -1,14 +1,19 @@
 <h1>Members of MicroBloggos</h1>
 
-<table class="table-bordered">
+<table class="table">
   <tr>
     <th>Name</th>
     <th>Email</th>
+    <th *ngIf="profile">Social</th>
+    <th *ngIf="profile && friends">Manage friends</th>
   </tr>
 
   <tr *ngFor="let member of members">
     <td>{{ member.name }}</td>
     <td>{{ member.email }}</td>
+    <td *ngIf="profile && !friends.includes(member._id) && member._id != profile['result']._id; else alreadyFriend"><button class="btn btn-secondary" (click)="onClickAddFriend(member._id)">Follow</button></td>
+    <td *ngIf="profile && friends.includes(member._id) && member._id != profile['result']._id;"><button class="btn btn-danger" (click)="onClickDeleteFriend(member._id)">Unfollow</button></td>
+    <ng-template #alreadyFriend><td *ngIf="profile">Already a friend !</td></ng-template>
   </tr>
 
 

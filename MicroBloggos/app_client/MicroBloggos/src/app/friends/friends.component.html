@@ -1,0 +1,18 @@
+<h1>MicroBloggos feed</h1>
+
+<div >
+  {{message}}
+</div>
+
+
+<div *ngIf="profile;">
+
+  <div *ngFor="let friendsMessage of friendsMessages;" >
+    <div class="panel panel-primary">
+      <div class="panel-body">{{ friendsMessage.content }}</div>
+      <div class="panel-heading" >By {{ friendsMessage.author_name }}</div>
+    </div>
+  </div>
+
+
+</div>

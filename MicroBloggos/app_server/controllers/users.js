@@ -75,3 +75,19 @@ exports.getAllUsers = function (req, res) {
         res.send(result);
     })
 }
+
+exports.addFriend = function (req, res) {
+    ct.addFriend(req.body.friends, req.body._id, function (info) {
+        ct.userInfoById(req.body._id, function (result) {
+            res.json({result})
+        })
+    });
+}
+
+exports.deleteFriend = function (req, res) {
+    ct.deleteFriend(req.body.friends, req.body._id, function (info) {
+        ct.userInfoById(req.body._id, function (result) {
+            res.json({result})
+        })
+    });
+}
